@@ -4,4 +4,10 @@ from django.http import HttpResponse
 
 
 def index(request):
-	return HttpResponse("Hello world!!")
+
+	# return HttpResponse("Hello world!!")
+	context = {}
+	return render(request,template_name="gotnews_app/base.html", context=context)
+
+def _expand_row(request):
+	return HttpResponse("This will return the data to expand a row with.")

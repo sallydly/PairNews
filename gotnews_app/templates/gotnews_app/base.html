@@ -1,0 +1,28 @@
+<script type="text/javascript">
+</script>
+
+<style type="text/css">
+
+html{
+	
+}
+div#content{
+	background-color: black;
+	margin: 5px auto;
+	width:75%;
+	height:100%;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}My amazing site{% endblock %}</title>
+</head>
+
+<body>
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
