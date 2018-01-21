@@ -7,9 +7,14 @@ def index(request):
 	"""
 	This is the index view.
 	"""
+
+	events = Event.objects.all().order_by('-start_date')
+	
 	#Collect Articles
+	# articles = Article.objects.all().order_by('-overall_sentiment')
 
 	#Collect ArticleEntityAssocs
+	# article_entity_assocs = ArticleEntityAssoc.objects.all().order_by('-sentiment')
 
 	#Pair the articles with the most positive and negative sentiments
 
