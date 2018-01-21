@@ -1,6 +1,6 @@
 /* Body & HTML */
 body{
-	background-color:#707679;
+	background-color:#FEFEFF;
 }
 
 /* Nav Bar */
@@ -24,16 +24,26 @@ div#content{
 	height:100%;
 }
 
+div.row{
+	width:70%;
+	margin:5px auto;
+}
+
 div.col-xs-sm-md-lg-6{
 	width:50%;
-	height:200vh;
+	height:50vh;
+
 }
 
 div.col-xs-sm-md-lg-6.positive{
-	background-color: #CCE2A3;
+	background-color: #87D37C;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 	
 }
 
 div.col-xs-sm-md-lg-6.negative{
-	background-color: #C05746;
+	background-color:#F2B79F;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
