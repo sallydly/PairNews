@@ -1,0 +1,39 @@
+/* Body & HTML */
+body{
+	background-color:#707679;
+}
+
+/* Nav Bar */
+nav.navbar{
+	background-color: black;
+}
+
+a.navbar-brand{
+	color:white;
+}
+
+a.navbar-brand:hover{
+	color:blue;
+}
+
+/* Content Wrappers */
+div#content{
+	background-color: blue;
+	margin: 0px auto;
+	width:80%;
+	height:100%;
+}
+
+div.col-xs-sm-md-lg-6{
+	width:50%;
+	height:200vh;
+}
+
+div.col-xs-sm-md-lg-6.positive{
+	background-color: #CCE2A3;
+	
+}
+
+div.col-xs-sm-md-lg-6.negative{
+	background-color: #C05746;
+}

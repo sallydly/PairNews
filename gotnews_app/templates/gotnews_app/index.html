@@ -1,6 +1,24 @@
+{% extends 'gotnews_app/base.html' %}
+s
 <script type="text/javascript">
 </script>
 
 <style type="text/css">
-</style>
 
+div#main{
+	background-color: red;
+	height: 50px;
+	width:100px;
+}
+</style>
+{% block content %}
+
+{# --------------- BEGIN FOR LOOP ----------- #}
+<div class="row">
+	<div class="col-xs-sm-md-lg-6 positive">
+	</div>
+	<div class="col-xs-sm-md-lg-6 negative">
+	</div>
+</div>
+{# --------------- END FOR LOOP   ----------- #}
+{% endblock content %}
