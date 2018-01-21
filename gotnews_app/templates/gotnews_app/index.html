@@ -195,8 +195,8 @@ function toggleHidden(node1Id, node2Id) {
 {% endfor %}
 
 
-
-<div class="pagination">
+<br />
+<div class="pagination" style="text-align: center; display: block;">
     <span class="step-links">
         {% if numbers.has_previous %}
             <a href="?page=1">&laquo; first</a>
@@ -212,6 +212,10 @@ function toggleHidden(node1Id, node2Id) {
             <a href="?page={{ numbers.paginator.num_pages }}">last &raquo;</a>
         {% endif %}
     </span>
+</div>
+
+<div style="text-align: right";>
+Powered by <a href="https://newsapi.org">NewsAPI.org</a>
 </div>
 
 {# --------------- END FOR LOOP   ----------- #}
