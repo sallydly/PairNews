@@ -16,7 +16,7 @@ def index(request):
 	context = {}
 	return render(request,template_name="gotnews_app/index.html", context=context)
 
-def _expand_row(request):
+def expand_row(request):
 	"""
 	This will grab and return all data for row expansion.
 	"""
