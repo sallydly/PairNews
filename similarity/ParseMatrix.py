@@ -2,6 +2,7 @@ from .TextSimilar import cosine_sim
 from numpy import argmax
 import json
 
+#used code from https://slack-redir.net/link?url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F8897593%2Fsimilarity-between-two-text-documents
 def get_topics_list(textArr):
   testList = []
   for article in textArr:
