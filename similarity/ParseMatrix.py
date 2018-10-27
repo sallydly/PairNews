@@ -19,7 +19,7 @@ def get_topics_list(textArr):
     topic.append(textArr[selfIndex]);
     
     for simIndex in range(selfIndex + 1, len(simList)):
-      if (simList[simIndex] < 0.95 and simList[simIndex] > 0.4 and simIndex not in masterList): #refine later
+      if (simList[simIndex] < 0.95 and simList[simIndex] > 0.4 and simIndex not in masterList):
         topic.append(textArr[simIndex])
         delCount = sum(num < simIndex for num in masterList)
         del similarityMatrix[simIndex - delCount]
